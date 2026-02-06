@@ -1,0 +1,17 @@
+---
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  annotations:
+    sealedsecrets.bitnami.com/cluster-wide: "true"
+  creationTimestamp: null
+  name: logging-api-token
+spec:
+  encryptedData:
+    token: AgBh1ejtDIZWV69568z62E3HtASgwV5oLARQkihQyZ0VNEbXU0qYgfV5naXQije7OV2fl/Lc6LipnmcxKgt9l3SdosPBQsFV93zD2TTjx615VhsIJITFZpB0eUoefAoxd8DNIZMQuy11KOO7wcuvKal047Dm0jNTgG48LJKWBrgn0vBG9usLduFmHK4Qj3SdMraKWa4FNWwYUeaL9m0t/K88JJXI3iUR7lOTPQIilKwrPzwJIp33wpMlQ8Eib1FynKtCTdm/r4IRo11/gXuwZ98zyGkVTr8bzCpjmmCbVFS31j4eL6GIxj8FK/QlDQPa8BCkzr2pMrFYgXu0IlRJTGj3xq/J3wWG7uy6pg7STCWRrZrr9Ur+gjDriaLmqDE6IuFnNO+kd7WYN5mJAPWNfMvqNajeoVi1/BByXELwq77SHAdtkxDEoZlX1cG0ZDnvm0H9zUMN1pTCNfyS2sGV2PdE2eAcZpR4R05Q8o3L0+B2TNF2oc0CbVUChMi3xiFoT4IWxDSn9unTHmYVFdj54ARlmd0Jrr8tTraNcYj47QvZbZHQ1a05Xg4ni0HB69Xahn4rkbbpn+dln/CYBg3U+/Xp3iCJLrv3Vw7oY564pgM/VJwtNJu4XufQx2iAYPsRhfPB+SCL3LGQ2h/qtzDSvrY2KniLhfzg4QarWf4XXR1EXexwfSQcGdbvJ30thtz45dywq+L3GDbQzEg=
+  template:
+    metadata:
+      annotations:
+        sealedsecrets.bitnami.com/cluster-wide: "true"
+      creationTimestamp: null
+      name: logging-api-token
